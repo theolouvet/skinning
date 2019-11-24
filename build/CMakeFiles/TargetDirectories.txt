@@ -1,0 +1,3 @@
+/home/thep/Documents/tp_skinning/build/CMakeFiles/rebuild_cache.dir
+/home/thep/Documents/tp_skinning/build/CMakeFiles/pgm.dir
+/home/thep/Documents/tp_skinning/build/CMakeFiles/edit_cache.dir

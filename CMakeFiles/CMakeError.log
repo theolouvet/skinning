@@ -1,0 +1,198 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec172544651/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec172544651.dir/build.make CMakeFiles/cmTryCompileExec172544651.dir/build
+make[1]: entrant dans le répertoire « /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec172544651.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec172544651.dir/CheckSymbolExists.cxx.o -c /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec172544651.dir/CheckSymbolExists.cxx.o] Erreur 1
+make[1]: quittant le répertoire « /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp »
+make: *** [cmTryCompileExec172544651/fast] Erreur 2
+
+File /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2755769659/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2755769659.dir/build.make CMakeFiles/cmTryCompileExec2755769659.dir/build
+make[1]: entrant dans le répertoire « /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2755769659.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2755769659.dir/CheckSymbolExists.cxx.o -c /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec2755769659.dir/CheckSymbolExists.cxx.o] Erreur 1
+make[1]: quittant le répertoire « /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp »
+make: *** [cmTryCompileExec2755769659/fast] Erreur 2
+
+File /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1173158211/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1173158211.dir/build.make CMakeFiles/cmTryCompileExec1173158211.dir/build
+make[1]: entrant dans le répertoire « /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1173158211.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec1173158211.dir/CheckSymbolExists.cxx.o -c /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[1]: *** [CMakeFiles/cmTryCompileExec1173158211.dir/CheckSymbolExists.cxx.o] Erreur 1
+make[1]: quittant le répertoire « /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp »
+make: *** [cmTryCompileExec1173158211/fast] Erreur 2
+
+File /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2169332270/fast"
+make[1]: entrant dans le répertoire « /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2169332270.dir/build.make CMakeFiles/cmTryCompileExec2169332270.dir/build
+make[2]: entrant dans le répertoire « /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2169332270.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec2169332270.dir/CheckSymbolExists.cxx.o -c /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+   return ((int*)(&Q_WS_WIN))[argc];
+                   ^
+make[2]: *** [CMakeFiles/cmTryCompileExec2169332270.dir/CheckSymbolExists.cxx.o] Erreur 1
+make[2]: quittant le répertoire « /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp »
+make[1]: *** [cmTryCompileExec2169332270/fast] Erreur 2
+make[1]: quittant le répertoire « /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp »
+
+File /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4199245926/fast"
+make[1]: entrant dans le répertoire « /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4199245926.dir/build.make CMakeFiles/cmTryCompileExec4199245926.dir/build
+make[2]: entrant dans le répertoire « /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec4199245926.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec4199245926.dir/CheckSymbolExists.cxx.o -c /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+   return ((int*)(&Q_WS_QWS))[argc];
+                   ^
+make[2]: *** [CMakeFiles/cmTryCompileExec4199245926.dir/CheckSymbolExists.cxx.o] Erreur 1
+make[2]: quittant le répertoire « /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp »
+make[1]: *** [cmTryCompileExec4199245926/fast] Erreur 2
+make[1]: quittant le répertoire « /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp »
+
+File /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec524986944/fast"
+make[1]: entrant dans le répertoire « /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp »
+/usr/bin/make -f CMakeFiles/cmTryCompileExec524986944.dir/build.make CMakeFiles/cmTryCompileExec524986944.dir/build
+make[2]: entrant dans le répertoire « /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp »
+/usr/bin/cmake -E cmake_progress_report /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec524986944.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec524986944.dir/CheckSymbolExists.cxx.o -c /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+   return ((int*)(&Q_WS_MAC))[argc];
+                   ^
+make[2]: *** [CMakeFiles/cmTryCompileExec524986944.dir/CheckSymbolExists.cxx.o] Erreur 1
+make[2]: quittant le répertoire « /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp »
+make[1]: *** [cmTryCompileExec524986944/fast] Erreur 2
+make[1]: quittant le répertoire « /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp »
+
+File /fs03/share/users/brice.tiki-abane/home/Bureau/tp_skinning/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

@@ -1,0 +1,11 @@
+-I/usr/include/qt4
+-I/usr/include/qt4/QtGui
+-I/usr/include/qt4/QtCore
+-I/home/thep/Documents/tp_skinning/build
+-D$<$<NOT:$<CONFIG:Debug>>:QT_NO_DEBUG>
+-DQT_GUI_LIB
+-DQT_CORE_LIB
+-DCORRECTION
+-o
+/home/thep/Documents/tp_skinning/build/project/src/local/interface/moc_myWidgetGL.cxx
+/home/thep/Documents/tp_skinning/project/src/local/interface/myWidgetGL.hpp
